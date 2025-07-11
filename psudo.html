@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector</title>
+    <style>
+        h2::after{
+            content: ".pdf";
+            color: blue;
+            font-size: 20px;
+            background-color: yellow;
+        }
+        h2::before{
+            content: "Start: ";
+            color: lightcoral;
+            background-color: lavenderblush;
+            font-size: 25px;
+        }
+        p::first-letter{
+            font-size: 30px;
+            color: red;
+        }
+        p::first-line{
+            background-color: lightgray;
+        }
+        p::selection{
+            background-color: yellow;
+            color: rgb(255, 4, 4);
+        }
+        .nav{
+            display: flex;
+            gap: 30px;
+        }
+        .nav .nav-link{
+            list-style: none;
+            
+        }
+        .nav-link a{
+            text-decoration: none;
+            font-size: 15px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(245, 76, 76);
+        }
+    </style>
+</head>
+<body>
+     <ul class="nav">
+        <li class="nav-link"><a href="./Position.html">Position</a></li>
+        <li class="nav-link"><a href="./pseudo.html">Pseudo</a></li>
+        <li class="nav-link"><a href="./psudo.html">Psudo</a></li>
+        <li class="nav-link"><a href="./Z-axies.html">Z-index</a></li>
+        <li class="nav-link"><a href="./index.html">Index</a></li>
+    </ul>
+    <h2>pseudo selectors</h2>
+    <h2>pseudo selectors</h2>
+    <h2>pseudo selectors</h2>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis explicabo perspiciatis neque ipsam enim repudiandae ab sequi ipsum quia praesentium facere nam, soluta eum provident! Sequi minima saepe odit ducimus?</p>
+
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis explicabo perspiciatis neque ipsam enim repudiandae ab sequi ipsum quia praesentium facere nam, soluta eum provident! Sequi minima saepe odit ducimus?</p>
+
+
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis explicabo perspiciatis neque ipsam enim repudiandae ab sequi ipsum quia praesentium facere nam, soluta eum provident! Sequi minima saepe odit ducimus?</p>
+</body>
+</html>

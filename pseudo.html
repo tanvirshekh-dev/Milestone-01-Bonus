@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector</title>
+    <style>
+        h2{
+            color: peru;
+            font-size: 100px;
+        }
+        h2:hover{
+            color: palevioletred;
+            background-color: antiquewhite;
+        }
+        input{
+            margin-bottom: 2px;
+        }
+        input:focus{
+            border: 2px solid purple;
+            outline: 0;
+            color: yellowgreen;
+        }
+        a:visited{
+            color: rgb(205, 63, 63);
+            background-color: aqua;
+        }
+        /* li:first-child{
+            color: red;
+        }  */
+        /* li:last-child{
+            color: red;
+        } */
+         li:nth-child(2n+1){
+            color: red;
+        }
+        .nav{
+            display: flex;
+            gap: 30px;
+        }
+        .nav .nav-link{
+            list-style: none;
+            
+        }
+        .nav-link a{
+            text-decoration: none;
+            font-size: 15px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(245, 76, 76);
+        }
+    </style>
+</head>
+<body>
+     <ul class="nav">
+        <li class="nav-link"><a href="./Position.html">Position</a></li>
+        <li class="nav-link"><a href="./pseudo.html">Pseudo</a></li>
+        <li class="nav-link"><a href="./psudo.html">Psudo</a></li>
+        <li class="nav-link"><a href="./Z-axies.html">Z-index</a></li>
+        <li class="nav-link"><a href="./index.html">Index</a></li>
+    </ul>
+    <h2>Hello world</h2>
+
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://fontawesome.com/">Font</a>
+
+    <ul>
+        <li>Arman</li>
+        <li>sakil</li>
+        <li>poly</li>
+        <li>rasmika</li>
+        <li>sanam</li>
+    </ul>
+</body>
+</html>

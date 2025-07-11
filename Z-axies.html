@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            position: relative;
+        }
+        .box img{
+            height: 200px;
+            width: 200px;
+        }
+        .boy{
+            z-index: 10;
+        }
+        .tube{
+            z-index: 5;
+            top: -80px;
+        }
+        .water{
+            z-index: 2;
+            top: -200px;
+        }
+        .nav{
+            display: flex;
+            gap: 30px;
+        }
+        .nav .nav-link{
+            list-style: none;
+            
+        }
+        .nav-link a{
+            text-decoration: none;
+            font-size: 15px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(245, 76, 76);
+        }
+    </style>
+</head>
+<body>
+     <ul class="nav">
+        <li class="nav-link"><a href="./Position.html">Position</a></li>
+        <li class="nav-link"><a href="./pseudo.html">Pseudo</a></li>
+        <li class="nav-link"><a href="./psudo.html">Psudo</a></li>
+        <li class="nav-link"><a href="./Z-axies.html">Z-index</a></li>
+        <li class="nav-link"><a href="./index.html">Index</a></li>
+    </ul>
+    <div class="container">
+      <div class="box boy">
+        <img src="./images/boy.png" alt="" />
+      </div>
+      <div class="box tube">
+        <img src="./images/tube.jpeg" alt="" />
+      </div>
+      <div class="box water">
+        <img src="./images/water.jpg" alt="" />
+      </div>
+</body>
+</html>
