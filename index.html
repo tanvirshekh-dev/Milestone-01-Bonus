@@ -5,32 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Milestone-01 Bonus</title>
     <style>
-        .nav{
-            display: flex;
-            gap: 30px;
-        }
-        .nav .nav-link{
-            list-style: none;
-            
-        }
-        .nav-link a{
-            text-decoration: none;
-            font-size: 15px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            color: rgb(245, 76, 76);
-        }
+      .nav {
+        display: flex;
+        gap: 30px;
+      }
+      .nav .nav-link {
+        list-style: none;
+      }
+      .nav-link a {
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(245, 76, 76);
+      }
+      .btn{
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+        background-color: lightcoral;
+        color: aliceblue;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
     <ul class="nav">
-        <li class="nav-link"><a href="./Position.html">Position</a></li>
-        <li class="nav-link"><a href="./pseudo.html">Pseudo</a></li>
-        <li class="nav-link"><a href="./psudo.html">Psudo</a></li>
-        <li class="nav-link"><a href="./Z-axies.html">Z-index</a></li>
-        <li class="nav-link"><a href="./index.html">Index</a></li>
+      <li class="nav-link"><a href="./Position.html">Position</a></li>
+      <li class="nav-link"><a href="./index.html">Index</a></li>
+      <li class="nav-link"><a href="./pseudo.html">Pseudo</a></li>
+      <li class="nav-link"><a href="./psudo.html">Psudo</a></li>
+      <li class="nav-link"><a href="./Z-axies.html">Z-index</a></li>
     </ul>
     <h2>Pseudo element and selector, Position, Z-index, Pseudo selector</h2>
-    <H5>Pseudo Element</H5>
+    <h5>Pseudo Element</h5>
     <ul>
       <li>:hover</li>
       <li>:focus</li>
@@ -44,24 +51,35 @@
 
     <h5>Position</h5>
     <ul>
-        <li>Static position</li>
-        <li>Relative position</li>
-        <li>Absolute position</li>
-        <li>Sticky position</li>
-        <li>Fixed position</li>
+      <li>Static position</li>
+      <li>Relative position</li>
+      <li>Absolute position</li>
+      <li>Sticky position</li>
+      <li>Fixed position</li>
     </ul>
 
     <h5>Z-index</h5>
-    <p>Kon tar upora kon element bosate chai sai property er jonno z-index babohar kora hoy</p>
+    <p>
+      Kon tar upora kon element bosate chai sai property er jonno z-index
+      babohar kora hoy
+    </p>
 
     <h5>Pseudo Selector</h5>
     <ul>
-        <li>::after</li>
-        <li>::before</li>
-        <li>content</li>
-        <li>::first-letter</li>
-        <li>::first-line</li>
-        <li>::selector</li>
+      <li>::after</li>
+      <li>::before</li>
+      <li>content</li>
+      <li>::first-letter</li>
+      <li>::first-line</li>
+      <li>::selector</li>
     </ul>
+
+    <button onclick="discount()" class="btn">Discount code</button>
+    <script>
+      alert("welcome to my bonus module web page");
+      function discount(){
+        alert("code: WEB12");
+      }
+    </script>
   </body>
 </html>
